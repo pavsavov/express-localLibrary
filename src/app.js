@@ -8,6 +8,13 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
 var app = express();
+//set mongoose connection
+var mongoose = require('mongoose');
+var mongoDb = 'mongodb+srv://admin:admin@cluster0-7gyga.azure.mongodb.net/locallibrary-express-tutorial?retryWrites=true&w=majority';
+mongoose.connect(mongodb,{useNewUrlParser:true});
+var db = mongoose.connect;
+db.on('error',console.error.bind(console,'MongoDb connection error:'))
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
