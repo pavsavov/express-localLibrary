@@ -10,9 +10,9 @@ var usersRouter = require('./routes/users');
 var app = express();
 //set mongoose connection
 var mongoose = require('mongoose');
-var mongoDb = 'mongodb+srv://admin:admin@cluster0-7gyga.azure.mongodb.net/locallibrary-express-tutorial?retryWrites=true&w=majority';
+var mongodb = 'mongodb+srv://admin:admin@cluster0-7gyga.azure.mongodb.net/locallibrary-express-tutorial?retryWrites=true&w=majority';
 mongoose.connect(mongodb,{useNewUrlParser:true});
-var db = mongoose.connect;
+var db = mongoose.connection;
 db.on('error',console.error.bind(console,'MongoDb connection error:'))
 
 
