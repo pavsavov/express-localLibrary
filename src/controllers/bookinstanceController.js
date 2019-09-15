@@ -1,34 +1,34 @@
 const BookInstance = require('../models/bookinstance');
 
 
-exports.bookinstance_list = function(req, res) {
+exports.bookinstanceList = function(req, res) {
     res.send('NOT IMPLEMENTED: BookInstance list');
 };
 
-exports.bookinstance_detail = function(req, res) {
+exports.bookinstanceDetail = function(req, res) {
     res.send('NOT IMPLEMENTED: BookInstance detail: ' + req.params.id);
 };
 
-exports.bookinstance_create_get = function(req, res) {
+exports.bookinstanceCreateGet = function(req, res) {
     res.send('NOT IMPLEMENTED: BookInstance create GET');
 };
 
-exports.bookinstance_create_post = function(req, res) {
+exports.bookinstanceCreatePost = function(req, res) {
     res.send('NOT IMPLEMENTED: BookInstance create POST');
 };
 
-exports.bookinstance_delete_get = function(req, res) {
+exports.bookinstanceDeleteGet = function(req, res) {
     res.send('NOT IMPLEMENTED: BookInstance delete GET');
 };
 
-exports.bookinstance_delete_post = function(req, res) {
+exports.bookinstanceDeletePost = function(req, res) {
     res.send('NOT IMPLEMENTED: BookInstance delete POST');
 };
 
-exports.bookinstance_update_get = function(req, res) {
+exports.bookinstanceUpdateGet = function(req, res) {
     res.send('NOT IMPLEMENTED: BookInstance update GET');
 };
 
-exports.bookinstance_update_post = function(req, res) {
+exports.bookinstanceUpdatePost = function(req, res) {
     res.send('NOT IMPLEMENTED: BookInstance update POST');
 };

@@ -1,33 +1,33 @@
 const Genre = require('../models/genre');
 
-exports.genre_list = function(req, res) {
+exports.genreList = function(req, res) {
     res.send('NOT IMPLEMENTED: Genre list');
 };
 
-exports.genre_detail = function(req, res) {
+exports.genreDetail = function(req, res) {
     res.send('NOT IMPLEMENTED: Genre detail: ' + req.params.id);
 };
 
-exports.genre_create_get = function(req, res) {
+exports.genreCreateGet = function(req, res) {
     res.send('NOT IMPLEMENTED: Genre create GET');
 };
 
-exports.genre_create_post = function(req, res) {
+exports.genreCreatePost = function(req, res) {
     res.send('NOT IMPLEMENTED: Genre create POST');
 };
 
-exports.genre_delete_get = function(req, res) {
+exports.genreDeleteGet = function(req, res) {
     res.send('NOT IMPLEMENTED: Genre delete GET');
 };
 
-exports.genre_delete_post = function(req, res) {
+exports.genreDeletePost = function(req, res) {
     res.send('NOT IMPLEMENTED: Genre delete POST');
 };
 
-exports.genre_update_get = function(req, res) {
+exports.genreUpdateGet = function(req, res) {
     res.send('NOT IMPLEMENTED: Genre update GET');
 };
 
-exports.genre_update_post = function(req, res) {
+exports.genreUpdatePost = function(req, res) {
     res.send('NOT IMPLEMENTED: Genre update POST');
 };
