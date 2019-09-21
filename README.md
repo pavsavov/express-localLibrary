@@ -7,3 +7,6 @@ For back-end - Express.js
 
 Template engine - Pug(former Jade);
 
+Application Mongoose models diagram:
+
+![alt text](https://mdn.mozillademos.org/files/15645/Library%20Website%20-%20Mongoose_Express.png)
