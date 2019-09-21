@@ -1,6 +1,6 @@
 #! /usr/bin/env node
 
-console.log('This script populates some test books, authors, genres and bookinstances to your database. Specified database as argument - e.g.: populatedb mongodb+srv://admin:admin@cluster0-7gyga.azure.mongodb.net/locallibrary-express-tutorial?retryWrites=true&w=majority');
+console.log('This script populates some test books, authors, genres and bookinstances to your database. Specified database as argument - e.g.: populatedb mongodb+srv://cooluser:coolpassword@cluster0-mbdj7.mongodb.net/local_library?retryWrites=true');
 
 // Get arguments passed on command line
 var userArgs = process.argv.slice(2);
@@ -225,6 +225,3 @@ function(err, results) {
     // All done, disconnect from database
     mongoose.connection.close();
 });
-
-
-
