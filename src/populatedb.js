@@ -52,6 +52,8 @@ function genreCreate(name, cb) {
        
   genre.save(function (err) {
     if (err) {
+      console.log(err);
+      console.log(cb);
       cb(err, null);
       return;
     }
@@ -215,7 +217,9 @@ async.series([
 ],
 // Optional callback
 function(err, results) {
-    if (err) {
+  console.log(results);  
+  if (err) {
+      
         console.log('FINAL ERR: '+err);
     }
     else {
